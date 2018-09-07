@@ -1,4 +1,4 @@
-package java.com.imooc.o2o.entity;
+package com.imooc.o2o.entity;
 
 import java.util.Date;
 

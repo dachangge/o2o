@@ -1,4 +1,4 @@
-package java.com.imooc.o2o;
+package com.imooc.o2o;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
