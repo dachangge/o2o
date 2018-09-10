@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
+import static org.junit.Assert.assertEquals;
+
 public class AreaDaoTest extends BaseTest {
     @Autowired
     private AreaDao areaDao;
@@ -14,6 +16,7 @@ public class AreaDaoTest extends BaseTest {
     @Test
     public void testQueryArea(){
         List<Area> areaList = areaDao.queryArea();
-//        assertEquals(2,((List) areaList).size());
+
+        assertEquals(2,((List) areaList).size());
     }
 }
