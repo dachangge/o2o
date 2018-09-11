@@ -2,9 +2,11 @@ package com.imooc.o2o.util;
 
 import net.coobird.thumbnailator.Thumbnailator;
 import net.coobird.thumbnailator.Thumbnails;
+import net.coobird.thumbnailator.filters.Watermark;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
@@ -19,7 +21,11 @@ public class ImageUtil {
         String realFileAddr =  targetAddr + realFileName + extension;
         File file = new File(PathUtil.getImgBasePath() + realFileAddr);
 
-        Thumbnails.of(multipartFile.getInputStream()).size(200,200).mark
+        try {
+            Thumbnails.of(multipartFile.getInputStream()).size(200,200).toFile(file);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return realFileAddr;
     }
 
