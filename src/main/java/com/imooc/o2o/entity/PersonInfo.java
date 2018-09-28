@@ -1,7 +1,16 @@
 package com.imooc.o2o.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.Date;
 
+@NoArgsConstructor
+@Data
+@Builder
+@AllArgsConstructor
 public class PersonInfo {
     private Long userId;
     private String name;

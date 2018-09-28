@@ -3,6 +3,8 @@ package com.imooc.o2o.util;
 import net.coobird.thumbnailator.Thumbnailator;
 import net.coobird.thumbnailator.Thumbnails;
 import net.coobird.thumbnailator.filters.Watermark;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.multipart.commons.CommonsMultipartFile;
 
 import java.io.File;
@@ -12,21 +14,28 @@ import java.util.Date;
 import java.util.Random;
 
 public class ImageUtil {
+
+    private static Logger logger = LoggerFactory.getLogger(ImageUtil.class);
     public static final SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyyMMddHHmmss");
     public static final Random rd = new Random();
-    public static String generateTunmbnail(CommonsMultipartFile multipartFile,String targetAddr){
+    public static String generateTunmbnail(File multipartFile,String targetAddr){
         String realFileName = getRandomFileName();
-        String extension = getFileExtension(multipartFile.getOriginalFilename());
+        String extension = getFileExtension(multipartFile);
         makeDirPath(targetAddr);
         String realFileAddr =  targetAddr + realFileName + extension;
+        logger.debug("relativeAddr is :" + realFileAddr);
         File file = new File(PathUtil.getImgBasePath() + realFileAddr);
+        logger.debug("fullpath is :" + PathUtil.getImgBasePath() + realFileAddr);
+
+        logger.debug("basePath is :" + PathUtil.getImgBasePath());
+
 
         try {
-            Thumbnails.of(multipartFile.getInputStream()).size(200,200).toFile(file);
+            Thumbnails.of(multipartFile).size(200,200).toFile(file);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return realFileAddr;
+        return PathUtil.getImgBasePath() + realFileAddr;
     }
 
     /**
@@ -44,9 +53,9 @@ public class ImageUtil {
     /**
     * @Description: 获取文件扩展名
     */
-    private static String getFileExtension(String fileName) {
+    private static String getFileExtension(File file) {
 
-        return fileName.substring(fileName.lastIndexOf("."));
+        return file.getName().substring(file.getName().lastIndexOf("."));
     }
 
     /**

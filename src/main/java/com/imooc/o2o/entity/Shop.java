@@ -1,7 +1,16 @@
 package com.imooc.o2o.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.Date;
 
+@Builder
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Shop {
     private Integer shopId;
     private String shopName;
@@ -18,120 +27,8 @@ public class Shop {
     private String advice;
     private Area area;
 
-    public PersonInfo getOwenr() {
-        return owenr;
-    }
-
-    public void setOwenr(PersonInfo owenr) {
-        this.owenr = owenr;
-    }
-
-    private PersonInfo owenr;
+    private PersonInfo owner;
     private ShopCategory shopCategory;
 
-    public Integer getShopId() {
-        return shopId;
-    }
 
-    public void setShopId(Integer shopId) {
-        this.shopId = shopId;
-    }
-
-    public String getShopName() {
-        return shopName;
-    }
-
-    public void setShopName(String shopName) {
-        this.shopName = shopName;
-    }
-
-    public String getShopDesc() {
-        return shopDesc;
-    }
-
-    public void setShopDesc(String shopDesc) {
-        this.shopDesc = shopDesc;
-    }
-
-    public String getShopAddr() {
-        return shopAddr;
-    }
-
-    public void setShopAddr(String shopAddr) {
-        this.shopAddr = shopAddr;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
-    public String getShopImg() {
-        return shopImg;
-    }
-
-    public void setShopImg(String shopImg) {
-        this.shopImg = shopImg;
-    }
-
-    public Integer getPriority() {
-        return priority;
-    }
-
-    public void setPriority(Integer priority) {
-        this.priority = priority;
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public Date getLastEditTime() {
-        return lastEditTime;
-    }
-
-    public void setLastEditTime(Date lastEditTime) {
-        this.lastEditTime = lastEditTime;
-    }
-
-    public Integer getEnableStatus() {
-        return enableStatus;
-    }
-
-    public void setEnableStatus(Integer enableStatus) {
-        this.enableStatus = enableStatus;
-    }
-
-    public String getAdvice() {
-        return advice;
-    }
-
-    public void setAdvice(String advice) {
-        this.advice = advice;
-    }
-
-    public Area getArea() {
-        return area;
-    }
-
-    public void setArea(Area area) {
-        this.area = area;
-    }
-
-
-
-    public ShopCategory getShopCategory() {
-        return shopCategory;
-    }
-
-    public void setShopCategory(ShopCategory shopCategory) {
-        this.shopCategory = shopCategory;
-    }
 }
