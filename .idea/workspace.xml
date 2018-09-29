@@ -7,70 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25e140e-5784-498b-b10e-253798087f4b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/base/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/common/FileUploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/shopadmin/ShopManagermentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/query/area/AreaQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/query/base/BaseQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/Callback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PagerResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PagerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com.imooc/o2o/service/ShopServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o2o.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/controller/admin/AreaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/dao/AreaDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/HeadLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/LocalAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/PersonInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/ProductCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/ProductImg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/ShopCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/entity/WechatAuth.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/service/AreaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/com/imooc/o2o/service/impl/AreaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/mapper/Area.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/spring/spring-controller.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/spring/spring-dao.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/o2o/spring/spring-service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/o2o/com/imooc/o2o/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/o2o/com/imooc/o2o/dao/AreaDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/o2o/com/imooc/o2o/service/AreaServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/admin/AreaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/admin/AreaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/AreaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/dao/AreaDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/PersonInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/PersonInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/ShopCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/entity/ShopCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/AreaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/AreaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/ImageUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-controller.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.imooc/o2o/dao/AreaDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.imooc/o2o/dao/AreaDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com.imooc/o2o/service/AreaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com.imooc/o2o/service/AreaServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/controller/admin/AreaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/controller/admin/AreaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/dao/AreaDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/dao/AreaDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/PersonInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/PersonInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/Shop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/Shop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/ShopCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/entity/ShopCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/service/AreaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/service/AreaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/service/impl/AreaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/com/imooc/o2o/service/impl/AreaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/spring/spring-controller.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/classes/spring/spring-controller.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/o2o/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/o2o/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,7 +46,7 @@
       <file leaf-file-name="PagerUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PagerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="561">
               <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -131,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -148,8 +85,8 @@
       <file leaf-file-name="FileUploadController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/common/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -276,8 +213,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="67" />
+    <option name="y" value="308" />
     <option name="width" value="1706" />
     <option name="height" value="1072" />
   </component>
@@ -288,6 +226,24 @@
       <foldersAlwaysOnTop value="false" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="o2o" type="58d84e3e:PackageViewProjectNode" />
+              <item name="o2o" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="o2o" type="58d84e3e:PackageViewProjectNode" />
+              <item name="o2o" type="616d4139:PackageViewModuleNode" />
+              <item name="mapper" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -538,24 +494,6 @@
               <item name="com.imooc" type="462c0819:PsiDirectoryNode" />
               <item name="o2o" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="o2o" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="o2o" type="58d84e3e:PackageViewProjectNode" />
-              <item name="o2o" type="616d4139:PackageViewModuleNode" />
-              <item name="mapper" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -952,7 +890,8 @@
       <workItem from="1537406233895" duration="4708000" />
       <workItem from="1537495633222" duration="1218000" />
       <workItem from="1537838500893" duration="10138000" />
-      <workItem from="1538015444488" duration="12997000" />
+      <workItem from="1538015444488" duration="14998000" />
+      <workItem from="1538215136296" duration="592000" />
     </task>
     <servers />
   </component>
@@ -989,7 +928,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93914000" />
+    <option name="totallyTimeSpent" value="96507000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1001,7 +940,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="67" y="308" width="1706" height="1072" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -1017,19 +956,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991276" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4994664" weight="0.32715377" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32824427" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.261723" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.261723" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32824427" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29796356" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.21184632" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2926045" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49925926" visible="true" weight="0.24452555" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.4994664" weight="0.32715377" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -1246,16 +1185,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/config/CorsConfig.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1319,9 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1407,20 +1334,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/util/PagerUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
+        <state relative-caret-position="561">
           <caret line="40" column="25" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1444,8 +1371,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/o2o/controller/common/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
